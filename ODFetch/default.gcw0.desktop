@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ODFetch
+Comment=OpenDingux Fetch (System Info)
+Exec=sh odfetch.sh
+Terminal=true
+Type=Application
+StartupNotify=true
+Icon=shconsole
+Categories=applications;
