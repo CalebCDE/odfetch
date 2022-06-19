@@ -72,21 +72,14 @@ paqext=$(ls /media/sdcard/APPS/ | wc -l)
 # Show the info, great ASCII art of Opendingux logo (Please, help me with that! XD)
 # NOPE, is not the USA MAP :-(
 echo ""
-echo -e "          "${Naranja}"user${Azul}@${Naranja}host "${Azul}$user${Naranja}"@"${Azul}$host${SC}
-echo -e " / \__    "${Naranja}"version   "${Azul}$distro${SC}
-echo -e "|     \_  "${Naranja}"kernel    "${Azul}$kernel${SC}
-echo -e "|       ) "${Naranja}"uptime    "${Azul}$uptime${SC}
-echo -e " \     /  "${Naranja}"shell     "${Azul}$shell ${SC}
-echo -e "  \___/   "${Naranja}"packages  "${Azul}$paqint" Int.SD / "$paqext" Ext.SD"${SC}
-echo -e "          "${Naranja}"memory    "${Azul}$calcmdis"Mb of "$calcmtot"Mb"${SC}
+echo -e "            "${Naranja}"user${Azul}@${Naranja}host "${Azul}$user${Naranja}"@"${Azul}$host${SC}
+echo -e "   |\       "${Naranja}"version   "${Azul}$distro${SC}
+echo -e "<=--===\>   "${Naranja}"kernel    "${Azul}$kernel${SC}
+echo -e "  ==0=[]=>> "${Naranja}"uptime    "${Azul}$uptime${SC}
+echo -e "<=--===/>   "${Naranja}"shell     "${Azul}$shell ${SC}
+echo -e "   |/       "${Naranja}"packages  "${Azul}$paqint" Int.SD / "$paqext" Ext.SD"${SC}
+echo -e "            "${Naranja}"memory    "${Azul}$calcmdis"Mb of "$calcmtot"Mb"${SC}
 echo ""
 echo -e "Press"${Rojo}" [START]"${SC} "to exit" && read -p ""
 #/---------------------------------------------------------------------------------
 #EOF
-
-   |\
-<=--===\>
-  ==0=[]=>>
-<=--===/>
-   |/
-
